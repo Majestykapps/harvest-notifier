@@ -10,7 +10,6 @@ gem "httparty"
 gem "jbuilder"
 gem "rack"
 gem "rake"
-gem "rollbar"
 gem "snitcher"
 
 group :development do
