@@ -1,7 +1,7 @@
 {
   "name": "Harvest Notifier",
   "description": "Automatic notification script for Slack based on Harvest data",
-  "repository": "https://github.com/fs/harvest-notifier/",
+  "repository": "https://github.com/Majestykapps/harvest-notifier",
   "keywords": [
     "harvest",
     "notification",
