@@ -16,12 +16,10 @@ module HarvestNotifier
 
     def post_message(body)
       self.class.post("/chat.postMessage", body: body)
-      puts body
     end
 
     def update_message(body, update_url)
       self.class.post(update_url, body: body)
-      puts body
     end
 
     def users_list
