@@ -39,7 +39,7 @@ module HarvestNotifier
     private
 
     def not_notifiable?(user)
-      inactive?(user) || contractor?(user) || without_weekly_capacity?(user) || whitelisted_user?(user)
+      inactive?(user) || without_weekly_capacity?(user) || whitelisted_user?(user)
     end
 
     def prepare_harvest_users(users)
